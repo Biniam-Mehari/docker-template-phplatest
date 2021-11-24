@@ -5,10 +5,20 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
 </head>
 <body>
+    <nav>
+        <div class="wrapper"> 
+        <ul>
+            <li><a href="#Home">Home</a></li>
+            <li><a href="#Signup">Sign up</a></li>
+            <li><a href="#LogIn">Log In</a></li>
+        </ul>
+    </div>
+    </nav>
     <form action="logIn.php", method="post">
-        <label for="UserName"> User Name</label>
+        <br><label for="UserName"> User Name</label>
         <input type="text" id="username" name="username" value="" placeholder="user name"><br><br>
         <label for="Password"> Password</label>
         <input type="password" id="password" name="password" value="" placeholder="password"><br><br>
